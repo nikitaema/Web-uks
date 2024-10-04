@@ -15,7 +15,7 @@ $data = mysqli_fetch_assoc($result);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Hasil Pendaftaran</title>
     <style>
         body {
@@ -33,7 +33,7 @@ $data = mysqli_fetch_assoc($result);
             box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
         }
         .card-header {
-            background-color: #8B0000; /* Warna merah gelap seperti darah */
+            background-color: #8B0000; /* Warna merah gelap */
             color: #fff;
             text-align: center;
             font-size: 1.25rem;
@@ -43,13 +43,13 @@ $data = mysqli_fetch_assoc($result);
             padding: 1.5rem;
         }
         .btn-primary {
-            background-color: #8B0000; /* Warna merah gelap seperti darah */
+            background-color: #8B0000;
             border: none;
             padding: 0.75rem 1.5rem;
             font-size: 1rem;
         }
         .btn-primary:hover {
-            background-color: #660000; /* Warna merah yang lebih gelap saat di-hover */
+            background-color: #660000;
         }
     </style>
 </head>
